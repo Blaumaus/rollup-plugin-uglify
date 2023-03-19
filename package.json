@@ -1,6 +1,6 @@
 {
   "name": "@blaumaus/rollup-plugin-uglify",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "Rollup plugin to minify generated bundle",
   "main": "index.js",
   "files": [
@@ -30,7 +30,7 @@
     "uglify-js": "^3.17.4"
   },
   "peerDependencies": {
-    "rollup": ">=0.66.0 <2"
+    "rollup": ">=2"
   },
   "devDependencies": {
     "@babel/core": "^7.21.3",
