@@ -1,6 +1,6 @@
 {
-  "name": "rollup-plugin-uglify",
-  "version": "6.0.4",
+  "name": "@blaumaus/rollup-plugin-uglify",
+  "version": "7.0.0",
   "description": "Rollup plugin to minify generated bundle",
   "main": "index.js",
   "files": [
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TrySound/rollup-plugin-uglify.git"
+    "url": "git+https://github.com/Blaumaus/rollup-plugin-uglify.git"
   },
   "keywords": [
     "rollup",
@@ -21,20 +21,20 @@
     "uglify",
     "minify"
   ],
-  "author": "Bogdan Chadkin <trysound@yandex.ru>",
+  "author": "Bogdan Chadkin <trysound@yandex.ru>, Andrii Romasiun <andrii@swetrix.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/code-frame": "^7.0.0",
+    "@babel/code-frame": "^7.18.6",
     "jest-worker": "^24.0.0",
     "serialize-javascript": "^2.1.2",
-    "uglify-js": "^3.4.9"
+    "uglify-js": "^3.17.4"
   },
   "peerDependencies": {
     "rollup": ">=0.66.0 <2"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.3.1",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
     "babel-jest": "^24.0.0",
     "jest": "^24.0.0",
     "prettier": "^1.16.1",
