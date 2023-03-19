@@ -1,3 +1,14 @@
+Fork that fixes the issue:
+```
+22:08:24.317	npm ERR! Could not resolve dependency:
+22:08:24.317	npm ERR! peer rollup@">=0.66.0 <2" from rollup-plugin-uglify@6.0.4
+22:08:24.317	npm ERR! node_modules/rollup-plugin-uglify
+22:08:24.317	npm ERR!   dev rollup-plugin-uglify@"^6.0.4" from the root project
+```
+
+
+
+
 # rollup-plugin-uglify [![Travis Build Status][travis-img]][travis]
 
 [travis-img]: https://travis-ci.org/TrySound/rollup-plugin-uglify.svg
